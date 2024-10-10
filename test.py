@@ -15,7 +15,7 @@ try:
         
         # Add the contents of the dictionary file to a list
         dictionaryList = []
-        with open('dictionary.txt') as dictionaryFile:
+        with open('pass.txt') as dictionaryFile:
             for word in dictionaryFile.readlines():
                 dictionaryList.append(word.strip())  # strip to remove newline characters
         
